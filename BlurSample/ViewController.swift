@@ -100,7 +100,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     func updateImage() {
         var color = pickerController.color?.colorWithAlphaComponent(CGFloat(colorAlphaSlider.value))
-        imageView.image = UIImage(named: "login")!.applyBlurWithRadius(CGFloat(blurRadiusSlider.value), tintColor: color, saturationDeltaFactor: CGFloat(saturationSlider.value), maskImage: nil)
+        imageView.image = UIImageEffects.imageByApplyingBlurToImage(UIImage(named: "login"),
+            withRadius: CGFloat(blurRadiusSlider.value),
+            tintColor: color,
+            saturationDeltaFactor: CGFloat(saturationSlider.value),
+            maskImage: nil)
     }
 }
 

@@ -14,7 +14,7 @@
 		E996EE381B8D4459009BB03A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E996EE371B8D4459009BB03A /* Images.xcassets */; };
 		E996EE3B1B8D4459009BB03A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E996EE391B8D4459009BB03A /* LaunchScreen.xib */; };
 		E996EE471B8D4459009BB03A /* BlurSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E996EE461B8D4459009BB03A /* BlurSampleTests.swift */; };
-		E996EE531B8D4894009BB03A /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E996EE521B8D4894009BB03A /* UIImage+ImageEffects.m */; };
+		E996EE561B8EAE9D009BB03A /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E996EE551B8EAE9D009BB03A /* UIImageEffects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +42,8 @@
 		E996EE451B8D4459009BB03A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E996EE461B8D4459009BB03A /* BlurSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurSampleTests.swift; sourceTree = "<group>"; };
 		E996EE501B8D4894009BB03A /* BlurSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlurSample-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
-		E996EE511B8D4894009BB03A /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "../UIImage+ImageEffects.h"; sourceTree = "<group>"; };
-		E996EE521B8D4894009BB03A /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "../UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		E996EE541B8EAE9D009BB03A /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
+		E996EE551B8EAE9D009BB03A /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +111,8 @@
 				E996EE341B8D4459009BB03A /* Main.storyboard */,
 				E996EE371B8D4459009BB03A /* Images.xcassets */,
 				E996EE391B8D4459009BB03A /* LaunchScreen.xib */,
-				E996EE511B8D4894009BB03A /* UIImage+ImageEffects.h */,
-				E996EE521B8D4894009BB03A /* UIImage+ImageEffects.m */,
+				E996EE541B8EAE9D009BB03A /* UIImageEffects.h */,
+				E996EE551B8EAE9D009BB03A /* UIImageEffects.m */,
 				E996EE2E1B8D4459009BB03A /* Supporting Files */,
 			);
 			path = BlurSample;
@@ -296,7 +296,7 @@
 			files = (
 				E996EE331B8D4459009BB03A /* ViewController.swift in Sources */,
 				E996EE311B8D4459009BB03A /* AppDelegate.swift in Sources */,
-				E996EE531B8D4894009BB03A /* UIImage+ImageEffects.m in Sources */,
+				E996EE561B8EAE9D009BB03A /* UIImageEffects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
